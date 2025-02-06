@@ -1,0 +1,8 @@
+ssh root@xx.xx.xx.xx  {Login To a Server You intend to work on}
+
+find / -type f -name "wildcard*" -exec dirname {} \; | sort -u   {Use This command in Linux to anything you want, the directory which it exists}
+
+
+find / -type f -name "wildcard_peter_co_xx.crt" 2>/dev/null  {Just for specific not necessary important}
+
+/usr/local/nginx/conf   {This is the location}
